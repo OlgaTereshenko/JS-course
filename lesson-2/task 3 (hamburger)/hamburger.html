@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hamburger.css">
+    <script src="hamburger.js"></script>
+    <title>Document</title>
+</head>
+<body>
+<form name="" action="" id="form">
+	<fieldset>
+		<legend>Create Hamburger</legend>
+		<div class="row">
+			<p>Choose Size</p>
+			<div class="radio-variant">
+				<input type="radio" name="size" id="small" value="small" checked/>
+				<label for="small">Small (price: 50,  calories: 20)</label>
+			</div>
+			<div class="radio-variant">
+				<input type="radio" name="size" id="large" value="large" />
+				<label for="large">Large (price: 100,  calories: 40)</label>
+			</div>
+		</div>
+		<div class="row additions">
+			<p>Additions</p>
+			<div class="checkbox-variant">
+				<input type="checkbox" name="add" id="cheese" value="cheese"/>
+				<label for="cheese">Cheese (price: 10, calories: 20)</label>
+			</div>
+			<div class="checkbox-variant">
+				<input type="checkbox" name="add" id="salad" value="salad"/>
+				<label for="salad">Salad (price: 20, calories: 5)</label>
+			</div>
+			<div class="checkbox-variant">
+				<input type="checkbox" name="add" id="potato" value="potato"/>
+				<label for="potato">Potato (price: 15, calories: 10)</label>
+			</div>
+			<div class="checkbox-variant">
+				<input type="checkbox" name="add" id="seasoning" value="spices">
+				<label for="Spices">Spices (price: 15, calories: 0)</label>
+			</div>
+			<div class="checkbox-variant">
+				<input type="checkbox" name="add" id="mayonnaise" value="mayonnaise">
+				<label for="mayonnaise">Mayonnaise (price: 20, calories: 5)</label>
+			</div>
+		</div>
+		<button class="button" type="submit" >Make Order</button>
+	</fieldset>
+	<br />
+	<div id="result">
+		<div class = "price-info">Price of burger: 0</div>
+		<div class = "calories-info">Calories: 0</div>
+	</div>
+</form>
+</body>
+</html>
