@@ -1,0 +1,34 @@
+button {
+    padding: 20px;
+  }
+  .form-box{
+      height: auto;
+      width: 30%;
+  }
+  
+  .form-box__area{
+    width: 100%;
+    padding: 10px 0 10px;
+  }
+
+  .form-box .input_error,
+  .form-box .p_error {
+    border-color: red;
+    color: red;
+  }
+  
+  .form-box .p_error {
+    color: red;
+  }
+  
+  .form-box .error-text {
+    color: red;
+  }
+  
+  .box-next-ex {
+    display: none;
+  }
+  
+  .box-next-ex span {
+    color: black;
+  }
