@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<meta charset="UTF-8" />
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <title>eShop</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <search></search>
+        <button v-on:click="FilterGoods" class="search-button" type="button">Искать</button>
+        <button class="cart-button" type="button">Корзина</button>
+      </header>
+      <main>
+        <responce></responce>
+        <goods-list :goods="filteredGoods"></goods-list> 
+        <cart></cart>
+      </main>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+  <script src="script.js"></script>
+</html>
